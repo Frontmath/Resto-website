@@ -1,0 +1,294 @@
+
+@media all and (min-width: 1501px){
+	.wrapper{
+		width: 1400px;		
+	}	
+
+	h1{
+		font-size: 90px;
+		padding-top: 15%;
+	}
+	
+	.head span.span-head{		
+		font-size: 16px;
+	}
+	
+}
+
+@media all and (max-width: 1500px){
+	.wrapper{
+		width: 1100px;
+	}
+
+	h1{
+		font-size: 80px;
+		padding-top: 15%;
+	}
+
+	.head span.span-head{		
+		font-size: 15px;
+	}
+
+}
+
+@media all and (max-width: 1280px){
+	.wrapper{
+		width: 1000px;
+	}	
+
+	h1{
+		font-size: 70px;
+		padding-top: 15%;
+	}
+
+	.head span.span-head{		
+		font-size: 15px;
+	}
+
+}
+
+
+
+
+@media all and (max-width: 1024px){
+	.wrapper{
+		width: 800px;
+	}
+
+	h1{
+		font-size: 60px;
+		text-align: center;		
+		padding-top: 15%;
+	}
+
+	.head span.span-head{		
+		font-size: 12px;
+	}
+
+	.featured-dishes h2{
+		margin-bottom: 30px;
+	}
+
+	.dish{
+		margin: 30px 15px 15px 15px;
+		width: 45%;
+	}
+
+	.gallery-item{		
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 800px){
+	.wrapper{
+		width: 550px;
+	}
+
+	.logo{
+		padding-left: 50px;
+	}
+
+	.menu{
+	    float: none;		
+		display: block;		
+	}
+
+	.menu li{
+		width: 20%;			
+		padding: 20px 0px 20px 0px;
+		text-align: center;
+	}
+
+	.head{			
+		background-image: none;	
+		background-color: #3B3B3B;
+		border-bottom: 4px solid #F34949;		
+		text-align: center;		
+		color: #fff;	
+		height: 150px;
+
+	}
+
+	.head span.span-head:before{	
+		color: #f34949;
+		width: 30px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.head span.span-head:after{	
+		color: #F34949;
+		width: 30px;
+		border-bottom: 1px solid #fff;
+	}
+
+	h1{
+		font-size: 50px;
+		text-align: center;		
+		padding-top: 5%;
+	}
+
+	header .wrapper a, ul{
+		float: none;
+		display: block;		
+	}
+	
+
+	.head span.span-head{		
+		font-size: 12px;
+	}
+
+	.head span.span-head:before{
+		left: -19%;
+		width: 30px;
+	}
+
+	.head span.span-head:after{
+		left: 107%;
+		width: 30px;
+	}
+
+	.dish{
+		margin: 20px 5px 0 5px;
+	}
+
+	.gallery-item{		
+		width: 50%;		
+	}
+
+	.clear-trouble{	   	
+		clear: both;
+	}	                      /*ссли убрать .clear-trouble, то происходят странные скачки - ПОЧЕМУ?*/
+}
+
+@media all and (max-width: 600px){
+	.wrapper{
+		width: 100%;
+	}	
+
+	.menu-table div{
+		width: 90%;
+		
+	}
+
+	.td-first{
+		padding-right: 0;
+		padding-left: 20px;
+	}
+
+	.td-second{
+		padding-left: 0;
+		padding-left: 20px;
+	}	
+
+
+	h1{
+		font-size: 40px;
+		text-align: center;		
+		padding-top: 5%;
+	}
+
+	h2{
+		padding-left: 20px;
+	}
+
+	.head span.span-head{		
+		font-size: 10px;
+	}
+
+	.head span.span-head:before{
+		left: -14%;
+		width: 20px;
+	}
+
+	.head span.span-head:after{
+		left: 104%;
+		width: 20px;
+	}		
+
+	footer .wrapper{
+		display: -webkit-flex;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	}
+
+	.foot-section{		
+		flex-basis: 30%;
+		margin: 50px 25px 50px 25px;
+	}	
+}
+
+@media all and (max-width: 480px){
+	.wrapper{
+		width: 100%;
+	}
+
+	.logo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 10px 20px;
+	}
+
+	.menu{
+		float: right;
+		margin-right: 20px;
+	}
+
+	.menu li{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		background-color: #3B3B3B;
+		margin: 10px;
+		padding: 10px;
+		float: right;
+		width: 50%;
+		border-radius: 5px;
+		box-shadow: 5px 5px 2px #000;
+	}
+
+	.menu li a{
+		color: #F34949;
+	}
+
+	.menu li a:hover{
+		color: #fff;
+		text-shadow: 0 0 1px #fff;
+	}
+
+	
+
+	h1{
+		text-align: center;		
+		font-size: 30px;
+		padding-top: 10%;
+	}
+
+	h2{
+		padding-left: 20px;
+	}	
+
+	.head span.span-head{		
+		font-size: 10px;
+	}	
+
+	.dish span{
+		font-size: 11px;
+	}	
+
+	span.star{
+		font-size: 150%;
+	}
+
+	footer .wrapper{
+		justify-content: center;
+	}
+
+	.foot-section{		
+		flex-basis: 45%;
+		margin: 50px 25px 50px 25px;
+	}	
+}
+
+

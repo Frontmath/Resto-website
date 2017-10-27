@@ -1,0 +1,377 @@
+   @font-face {    /*   LINK FOR FONT:  https://www.fontsquirrel.com/fonts/aleo?q%5Bterm%5D=Aleo&q%5Bsearch_check%5D=Y    */
+    font-family: 'aleoregular';
+    src: url('fonts/web fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot');
+    src: url('fonts/web fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff') format('woff'),
+         url('fonts/web fonts/aleo_regular_macroman/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/aleo_regular_macroman/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
+    src: url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	@font-face {
+    font-family: 'aleolightitalic';
+    src: url('fonts/web fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot');
+    src: url('fonts/web fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.woff') format('woff'),
+         url('fonts/web fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/aleo_lightitalic_macroman/Aleo-LightItalic-webfont.svg#aleolightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
+    src: url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	@font-face {
+    font-family: 'aleolight';
+    src: url('fonts/web fonts/aleo_light_macroman/Aleo-Light-webfont.eot');
+    src: url('fonts/web fonts/aleo_light_macroman/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/aleo_light_macroman/Aleo-Light-webfont.woff') format('woff'),
+         url('fonts/web fonts/aleo_light_macroman/Aleo-Light-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/aleo_light_macroman/Aleo-Light-webfont.svg#aleolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+	@font-face {
+    font-family: 'wc_mano_negra_btaregular';
+    src: url('fonts/web fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot');
+    src: url('fonts/web fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.woff') format('woff'),
+         url('fonts/web fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/wcmanonegrabta_regular_macroman/WCManoNegraBta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+ html, body{
+ 	font-family: 'aleoregular', Arial, sans-serif;
+	margin: 0;
+	padding: 0;	
+}
+
+.wrapper{
+	width: 1100px;		
+	margin: 0 auto;
+}
+
+img{
+	width: 100%;
+}
+
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.clear:after, header:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+/*************************************************HEADER*/
+
+header{
+	padding-top: 40px;
+}
+
+.logo{		
+	width: 81px;
+	height: 30px;
+}
+
+.menu{
+	list-style-type: none;
+	padding-bottom: 40px;	
+}
+
+.menu li{
+	padding-left: 25px;
+}
+
+.menu li a{
+	font-size: 14px;
+	color: #3b3b3b;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #F34D4D;
+	text-shadow: 1px 1px 1px #F34D4D;	
+}
+
+.head{  	  
+	height: 574px;	
+	background-image: url('images/bg-head.jpg');
+	background-repeat: no-repeat;
+	background-position: top;	
+	/*border-bottom: 4px solid #f34949;*/
+	text-align: center;		
+	color: white;	
+}
+
+h1{
+	text-align: center;	
+	z-index: 2;
+	margin: 0;	
+	font-family: 'wc_mano_negra_btaregular', Arial, sans-serif;	
+}
+
+h2{
+	padding-left: 10px;
+}
+
+.head span.span-head{
+	position: relative;	
+	font-size: 16px;
+}
+
+.head span.span-head:before{
+	content: ' ';
+	position: absolute;
+	top: 54%;	
+	left: -24%;	
+	color: white;
+	width: 40px;
+	border-bottom: 1px solid white;
+}
+
+.head span.span-head:after{
+	position: absolute;
+	top: 50%;
+	left: 112%;
+	content: ' ';
+	color: white;
+	width: 40px;
+	border-bottom: 1px solid white;
+}
+
+
+
+/**********************************************MAIN*/
+
+
+.menu-title{
+	width: 155px;
+	height: 75px;
+	margin: 0 auto;
+	background: url('images/menu-title.png') no-repeat center top;	
+	padding-bottom: 100px;
+}
+
+.menu-title span{
+	position: relative;
+	top: 20px;
+	left: 28px;
+	font-family: 'aleobold';
+	font-size: 20px;
+	color: #fff;	
+}
+
+.menu-table{
+	width: 100%;
+	margin: 50px auto;
+}
+
+.menu-table div{
+	display: inline-block;
+	width: 40%;
+}
+
+.td-first{
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.td-first .clear{
+	width: 100%;
+}
+
+.td-second{
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.td-second .clear{
+	width: 100%;
+}
+
+.ingridients{
+	display: block;
+	font-family: 'aleolightitalic';
+	font-size: 12px;
+	color: #B7B7B7;
+}
+
+.load{	
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid #B7B7B7;
+	color: #B7B7B7;
+	padding: 10px 45px 10px 15px;
+}
+
+.load span{
+	position: relative;
+}
+
+.load span:after {
+    content: '\005E';
+    font-size: 16px;    
+    position: absolute;
+    top: -2px;
+    left: 85px;
+    transform: rotate(180deg);
+}
+
+.load span:before{
+	content: ' \007C';
+	position: absolute;
+	top: 0px;
+    left: 72px;
+}
+
+.featured-dishes{
+	margin: 100px auto;	
+}
+
+.dish{
+	width: 21.36%; /*235px*/
+	display: inline-block;
+	margin: 50px 45px 0 0;
+	vertical-align: top;
+}
+
+.dish:last-child{
+	margin-right: 0;
+}
+
+
+
+h2{
+	font-family: 'aleobold';
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+
+.dish span{
+	font-family: 'aleolight';
+	font-size: 16px;
+	padding-top: 25px;
+	color: #555555;
+}
+
+span.star{
+	font-size: 200%;	
+}
+
+span.gold{
+	color: yellow;
+}
+
+span.empty{	
+	color: #DEDEDE;
+}
+
+.gallery{
+	font-size: 0;
+	margin: 100px auto;
+}
+
+.gallery-item{
+	width: 33%;
+}
+ 
+
+/********************************************************FOOTER*/
+
+footer{
+	background-color: #3b3b3b;
+}
+
+footer .wrapper{
+	display: -webkit-flex;
+    display: flex;
+}
+
+.foot-section{		
+	width: 21%;
+	height: 150px;	
+	margin: 100px 50px 100px 0;
+	color: #B5B5B5;	
+}
+
+.foot-section:last-child{
+	margin-right: 0;
+}
+
+.foot-section address{	
+	line-height: 15px;
+}
+
+.foot-section ul{
+	list-style-type: none;
+	margin: 0;	
+	padding: 0;
+}
+
+.foot-section li{
+	padding-bottom: 15px;
+}
+
+.foot-section li a{
+	color: white;
+	text-decoration: none;
+}
+
+.foot-section li a:hover{
+	text-shadow: 0 0 5px white;
+}
+
+.foot-section a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.foot-section img{
+	padding-bottom: 15px;
+	width: 81px;
+	height: 30px;
+}
+
+.foot-section span{
+	line-height: 15px;
+	color: #fff;
+}
